@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Formulaire DWWM</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Entrez votre nom"> <br>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Entrez votre email"> <br>
+        </div>
+        <div>
+            <label for="num-Satisfaction">Indiquez votre satisfaction au <br> <span>cours de 1 à 10</span> </label>
+            <input type="number" name="num-Satisfaction" id="num-Satisfaction" placeholder="numéro de 1 à 10" min="1" max="10" step="1"> <br>
+        </div>
+       <div>
+            <label for="coach">Qui est votre Coach</label>
+            <select name="num-Satisfaction" id="num-Satisfaction"> 
+                <option value="Birante">Birante</option>
+                <option value="Malick">Malick</option>
+                <option value="Mamadou">Mamadou</option>
+            </select> <br>
+       </div>
+       <div class="flex">
+            <p class="width-50">A quel moment avez-vous <span>cours?</span></p>
+           <div class="width-50">
+            <input type="radio" name="moment" id="matin" class="mb-0" value="matin">
+            <label for="matin" class="mb-0">Matin</label> <br>
+
+            <input type="radio" name="moment" id="apres-midi" class="mb-0" value="après-midi">
+            <label for="Après-midi" class="mb-0">Après-midi</label> <br>
+
+            <input type="radio" name="moment" id="Soir" class="mb-0" value="soir">
+            <label for="Soir" class="mb-0">Soir</label> <br>
+           </div>
+       </div>
+       <div class="flex">
+           <p class="width-50">Quel outils avez-vous <br> rencontrés jusque là? <br> (Selectionnez tout ce qui <br> <span>s'applique</span>)</p>
+          <div>
+            <input type="checkbox" name="outils" id="html" class="mb-0">
+            <label for="html" class="mb-0">HTML</label> <br>
+            <input type="checkbox" name="outils" id="CSS" class="mb-0">
+            <label for="CSS" class="mb-0">CSS</label> <br>
+            <input type="checkbox" name="outils" id="javaScript" class="mb-0">
+            <label for="javaScript" class="mb-0">javaScript</label> <br>
+            <input type="checkbox" name="outils" id="Editeur-de-texte" class="mb-0">
+            <label for="Editeur-de-texte" class="mb-0">Editeur de texte</label> <br>
+            <input type="checkbox" name="outils" id="Ligne-de-commande" class="mb-0">
+            <label for="Ligne-de-commande" class="mb-0">Ligne de commande</label> <br>
+          </div>
+       </div>
+       <div>
+           <label for="experience">Décrivez votre expérience jusque là</label>
+           <textarea name="experience" id="experience" placeholder="Décrivez votre experience"></textarea>
+       </div>
+       <button type="submit">Envoyez</button>
+    </form>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

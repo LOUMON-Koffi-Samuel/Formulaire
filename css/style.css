@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-size:1.1rem ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #B1D6E6;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+form{
+    margin: 5% 15%;
+    background-color: #F3F3F2;
+    border-radius: 4%;
+    padding: 6%;
+}
+
+input, label, p, select{
+    margin-bottom: 25px;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+button{
+    border: none;
+    border-radius: 7%;
+    padding: 0.5em;
+    background-color: #769FC9;
+    color: white;
+}
